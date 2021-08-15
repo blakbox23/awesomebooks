@@ -4,7 +4,7 @@
 
 > This is a JavaScript library project that allows users to add and remove books from the library.
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/Screenshot.png)
 
 Users can add books by typing in the title and author of the book they wish to add to the library. This project also utilizes local storage which allows the library data to be persistent even after the browser is shut down.
 
