@@ -14,6 +14,9 @@ Users can add books by typing in the title and author of the book they wish to a
 - CSS
 - JavaScript
 
+## Demo
+[Live link](https://blakbox23.github.io/awesomebooks/)
+
 
 ## Getting Started
 
