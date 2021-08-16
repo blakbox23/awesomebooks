@@ -10,18 +10,31 @@ navLink.addEventListener('click', () => {
   document.querySelector('.form-section').style.display = 'none';
   document.querySelector('.contact').style.display = 'none';
   document.querySelector('.lib-section').style.display = 'block';
+  document.querySelector('.nav-list').classList.add('blue');
+  document.querySelector('.nav-new').classList.remove('blue');
+  document.querySelector('.nav-contact').classList.remove('blue');
+
 });
 
 addLink.addEventListener('click', () => {
   document.querySelector('.lib-section').style.display = 'none';
   document.querySelector('.contact').style.display = 'none';
   document.querySelector('.form-section').style.display = 'block';
+  document.querySelector('.nav-list').classList.remove('blue');
+  document.querySelector('.nav-contact').classList.remove('blue');
+  document.querySelector('.nav-new').classList.add('blue');
+
+
 });
 
 contactLink.addEventListener('click', () => {
   document.querySelector('.form-section').style.display = 'none';
   document.querySelector('.lib-section').style.display = 'none';
   document.querySelector('.contact').style.display = 'block';
+  document.querySelector('.nav-contact').classList.add('blue');
+  document.querySelector('.nav-new').classList.remove('blue');
+  document.querySelector('.nav-list').classList.remove('blue')
+
 });
 
 /* eslint-disable */

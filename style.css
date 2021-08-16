@@ -55,6 +55,11 @@ li:nth-child(odd) {
   cursor: pointer;
 }
 
+.blue {
+  color: blue;
+  font-weight: bold;
+}
+
 .logo {
   padding-left: 50px;
   font-weight: bold;
